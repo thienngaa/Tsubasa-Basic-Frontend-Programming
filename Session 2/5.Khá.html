@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>5.Khá - Bài tập về các thẻ table và form</title>
+</head>
+
+<body>
+    <section>
+        <p>Bài 1: Tạo bảng chứa thông tin sản phẩm</p>
+        <h1><i>My Store</i></h1>
+        <table style="text-align: center">
+            <style>
+                table, th, td {
+                    border:1px solid;
+                }
+            </style>
+            <thead>
+                <tr>
+                    <th>Item Photo</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Oranges_-_whole-halved-segment.jpg/1280px-Oranges_-_whole-halved-segment.jpg"
+                        alt="Oranges_-_whole-halved-segment"
+                        style="width:200px;height:100px;"
+                        >
+                    </td>
+                    <td>Oranges</td>
+                    <td>$1 ea.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="htt://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bananavarieties.jpg/250px-Bananavarieties.jpg"
+                        alt="Banana"
+                        style="width:200px;height:100px;"
+                        >
+                    </td>
+                    <td>Bananas</td>
+                    <td>$0.75/lb</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pomegranate_Juice_%282019%29.jpg/250px-Pomegranate_Juice_%282019%29.jpg"
+                        alt="Pomegranate"
+                        style="width:200px;height:100px;"
+                        >
+                    </td>
+                    <td>Pomegranates</td>
+                    <td>5$ for 3</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="hts://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg/250px-Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg"
+                        alt="Gummy_bears"
+                        style="width:200px;height:100px;"
+                        >
+                    </td>
+                    <td>Gummy Bears</td>
+                    <td>$6 per bag</td>
+                </tr>
+                 <tr>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/250px-Broccoli_and_cross_section_edit.jpg"
+                        alt="Oranges_-_whole-halved-segment"
+                        style="width:200px;height:100px;"
+                        >
+                    </td>
+                    <td>Brocoli</td>
+                    <td>$3 a head</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+<br /><hr /><br />
+    <section>
+         <p>Bài 2: Tạo form đặt phòng khách sạn</p>
+        <h1>Booking Form</h1>
+        <form action="">
+            <label for="name">Name:</label>
+            <input id="name" type="text"/> <br /><br />
+            <label for="email">Email:</label>
+            <input id="email" type="email"/> <br /><br />
+            <label for="phone">Phone:</label>
+            <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/> <br /><br />
+            <label for="date">Date:</label>
+            <input id="date" type="date"/> <br /><br />
+            <label for="time">Time:</label>
+            <input id="time" type="time"/> <br /><br />
+            <label for="guestNumber">Number of Guests:</label>
+            <input id="guestNumber" type="number" min="1" max="50" step="1"/> <br /><br />
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+<br /><hr /><br />
+    <section>
+         <p>Bài 3: Tạo form mua xe</p>
+        <h1>Car Purchase Form</h1>
+        <form action="">
+            <label for="name">Name:</label>
+            <input id="name" type="text"/> <br /><br />
+            <label for="email">Email:</label>
+            <input id="email" type="email"/> <br /><br />
+            <label for="phone">Phone:</label>
+            <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/> <br /><br />
+            <label>Choose a Car:</label>
+            <select name="car model">
+                <option value="Toyota Prius">Toyota Prius</option>
+                <option value="Toyota Land Cruiser">Toyota Land Cruiser</option>
+                <option value="Toyota HiAce">Toyota HiAce</option>
+            </select> <br /><br />
+            <label>Choose a Color:</label>
+            <select name="car color">
+                <option value="red">Red</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+            </select> <br /><br />
+            <label for="quantity">Quantity:</label>
+            <input id="quantity" type="number" min="1" max="50" step="1"/> <br /><br />
+            <label for="deliveryDate">Delivery Date:</label>
+            <input id="deliveryDate" type="date"/> <br /><br />
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <br />
+    <br />
+    <br />
+</body>
+</html>
