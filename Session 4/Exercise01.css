@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css trang web */
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+div {
+  text-align: center;
+}
