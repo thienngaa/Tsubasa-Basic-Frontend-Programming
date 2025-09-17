@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: calc(50% - 10px);
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* màn hình tablet hoặc mobile */
+@media screen and (max-width: 1024px) {
+  .flex-item {
+    width: calc(100% - 10px);
+  }
+}
