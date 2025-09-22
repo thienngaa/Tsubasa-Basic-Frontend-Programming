@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang Tổng Hợp</title>
+</head>
+<body>
+
+  <!-- Tiêu đề tổng hợp -->
+  <h1>Tổng hợp</h1>
+
+  <!-- Đoạn văn -->
+  <p>
+    Đây là trang tổng hợp các phần tử HTML cơ bản: đoạn văn, hình ảnh, bảng và form.
+  </p>
+
+  <!-- Hình ảnh -->
+  <img src="https://via.placeholder.com/300x150" alt="Hình minh họa"><br><br>
+
+  <!-- Bảng dữ liệu -->
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>STT</th>
+      <th>Sản phẩm</th>
+      <th>Giá</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Điện thoại</td>
+      <td>10.000.000đ</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Laptop</td>
+      <td>20.000.000đ</td>
+    </tr>
+  </table>
+  <br>
+
+  <!-- Form -->
+  <form action="#" method="post">
+    <label for="name">Họ tên:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Tin nhắn:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Gửi">
+    <input type="reset" value="Nhập lại">
+  </form>
+
+</body>
+</html>
