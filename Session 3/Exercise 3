@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài Báo về HTML</title>
+</head>
+<body>
+
+  <!-- Tiêu đề chính -->
+  <header>
+    <h1>Bài Báo: Tầm Quan Trọng của HTML</h1>
+  </header>
+
+  <!-- Giới thiệu -->
+  <section>
+    <h2>1. Tầm quan trọng của HTML</h2>
+    <p>
+      HTML (HyperText Markup Language) là ngôn ngữ đánh dấu cơ bản để tạo ra các trang web. Nó là nền tảng để hiển thị văn bản, hình ảnh, liên kết và nhiều nội dung khác trên trình duyệt.
+    </p>
+  </section>
+
+  <!-- Giới thiệu chi tiết -->
+  <section>
+    <h2>2. Giới thiệu</h2>
+    <p>
+      HTML giúp cấu trúc nội dung trang web một cách rõ ràng. Một trang web không có HTML sẽ không thể hiển thị đúng trên trình duyệt. HTML kết hợp với CSS và JavaScript tạo nên các trang web đầy đủ chức năng.
+    </p>
+  </section>
+
+  <!-- Tại sao HTML quan trọng -->
+  <section>
+    <h2>3. Tại sao HTML quan trọng?</h2>
+    <p>
+      HTML cung cấp cấu trúc cơ bản cho trang web. Nó cho phép:
+      <ul>
+        <li>Hiển thị văn bản, hình ảnh, video và các nội dung đa phương tiện.</li>
+        <li>Tạo liên kết giữa các trang web.</li>
+        <li>Tạo cấu trúc dễ đọc cho cả người dùng và công cụ tìm kiếm.</li>
+      </ul>
+    </p>
+  </section>
+
+  <!-- Kết luận -->
+  <section>
+    <h2>4. Kết luận</h2>
+    <p>
+      HTML là ngôn ngữ không thể thiếu để xây dựng các trang web. Hiểu và sử dụng tốt HTML sẽ giúp bạn tạo ra các trang web chất lượng, trực quan và dễ sử dụng.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Bài Báo Mẫu</p>
+  </footer>
+
+</body>
+</html>
