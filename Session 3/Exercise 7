@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Thông Tin</title>
+</head>
+<body>
+
+  <h1>Form Điền Thông Tin</h1>
+
+  <form action="#" method="post">
+    <!-- Họ tên -->
+    <label for="name">Họ tên:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Sở thích -->
+    <label>Sở thích:</label><br>
+    <input type="checkbox" id="thich1" name="hobbies" value="Đọc sách">
+    <label for="thich1">Đọc sách</label><br>
+
+    <input type="checkbox" id="thich2" name="hobbies" value="Du lịch">
+    <label for="thich2">Du lịch</label><br>
+
+    <input type="checkbox" id="thich3" name="hobbies" value="Âm nhạc">
+    <label for="thich3">Âm nhạc</label><br>
+
+    <input type="checkbox" id="thich4" name="hobbies" value="Thể thao">
+    <label for="thich4">Thể thao</label><br>
+
+    <input type="checkbox" id="thich5" name="hobbies" value="Nấu ăn">
+    <label for="thich5">Nấu ăn</label><br>
+
+    <input type="checkbox" id="thich6" name="hobbies" value="Chụp ảnh">
+    <label for="thich6">Chụp ảnh</label><br>
+
+    <input type="checkbox" id="thich7" name="hobbies" value="Xem phim">
+    <label for="thich7">Xem phim</label><br>
+
+    <input type="checkbox" id="thich8" name="hobbies" value="Trồng cây">
+    <label for="thich8">Trồng cây</label><br>
+
+    <input type="checkbox" id="thich9" name="hobbies" value="Chơi game">
+    <label for="thich9">Chơi game</label><br>
+
+    <input type="checkbox" id="thich10" name="hobbies" value="Học lập trình">
+    <label for="thich10">Học lập trình</label><br><br>
+
+    <!-- Nút gửi và nhập lại -->
+    <input type="submit" value="Gửi thông tin">
+    <input type="reset" value="Nhập lại">
+  </form>
+
+</body>
+</html>
