@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bảng 3x4</title>
+</head>
+<body>
+
+  <h1>Bảng</h1>
+
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>Tên</th>
+      <th>Tuổi</th>
+      <th>Nghề nghiệp</th>
+    </tr>
+    <tr>
+      <td>An</td>
+      <td>25</td>
+      <td>Giáo viên</td>
+    </tr>
+    <tr>
+      <td>Nam</td>
+      <td>34</td>
+      <td>Kỹ sư</td>
+    </tr>
+    <tr>
+      <td>Dũng</td>
+      <td>14</td>
+      <td>Học sinh</td>
+    </tr>
+  </table>
+
+</body>
+</html>
