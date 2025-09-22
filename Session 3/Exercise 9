@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Tìm Kiếm Sản Phẩm</title>
+</head>
+<body>
+
+  <h1>Tìm kiếm sản phẩm</h1>
+
+  <form action="#" method="get">
+    <!-- Từ khóa tìm kiếm -->
+    <label for="keyword">Từ khóa:</label><br>
+    <input type="text" id="keyword" name="keyword" placeholder="Nhập từ khóa..."><br><br>
+
+    <!-- Loại sản phẩm (dropdown) -->
+    <label for="category">Loại sản phẩm:</label><br>
+    <select id="category" name="category">
+      <option value="">--Chọn loại--</option>
+      <option value="dien-thoai">Điện thoại</option>
+      <option value="laptop">Laptop</option>
+      <option value="tablet">Tablet</option>
+      <option value="phu-kien">Phụ kiện</option>
+    </select><br><br>
+
+    <!-- Nút tìm kiếm -->
+    <input type="submit" value="Tìm kiếm">
+  </form>
+
+</body>
+</html>
