@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bảng Tỷ Lệ Đơn Hàng</title>
+</head>
+<body>
+
+  <h1>Bảng Tỷ Lệ Đơn Hàng</h1>
+
+  <table border="1" cellpadding="10">
+    <!-- Hàng tiêu đề chính -->
+    <tr>
+      <th>Tháng</th>
+      <th colspan="2">Tỷ lệ đơn hàng</th>
+    </tr>
+
+    <!-- Hàng tiêu đề con -->
+    <tr>
+      <th></th>
+      <th>Thành công</th>
+      <th>Hủy</th>
+    </tr>
+
+    <!-- Dữ liệu mẫu -->
+    <tr>
+      <td>Tháng 1</td>
+      <td>80%</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>Tháng 2</td>
+      <td>90%</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <td>Tháng 3</td>
+      <td>85%</td>
+      <td>15%</td>
+    </tr>
+  </table>
+
+</body>
+</html>
