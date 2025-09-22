@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Ví dụ rowspan</title>
+</head>
+<body>
+
+  <h1>Bảng Thống Kê Đơn Hàng</h1>
+
+  <table border="1" cellpadding="10">
+    <!-- Hàng tiêu đề -->
+    <tr>
+      <th>Tháng</th>
+      <th>Loại đơn hàng</th>
+      <th>Số lượng</th>
+    </tr>
+
+    <!-- Tháng 1, gộp 2 loại đơn hàng -->
+    <tr>
+      <td rowspan="2">Tháng 1</td>
+      <td>Đơn hàng thành công</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>Đơn hàng hủy</td>
+      <td>20</td>
+    </tr>
+
+    <!-- Tháng 2, gộp 2 loại đơn hàng -->
+    <tr>
+      <td rowspan="2">Tháng 2</td>
+      <td>Đơn hàng thành công</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>Đơn hàng hủy</td>
+      <td>10</td>
+    </tr>
+
+    <!-- Tháng 3, gộp 2 loại đơn hàng -->
+    <tr>
+      <td rowspan="2">Tháng 3</td>
+      <td>Đơn hàng thành công</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>Đơn hàng hủy</td>
+      <td>15</td>
+    </tr>
+  </table>
+
+</body>
+</html>
