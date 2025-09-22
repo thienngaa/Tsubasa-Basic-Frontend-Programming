@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Danh sách ảnh</title>
+</head>
+<body>
+
+  <h1>Danh sách 4 ảnh</h1>
+
+  <table border="1" cellpadding="10">
+    <tr>
+      <td><img src="https://www.canva.com/photos/MAGwkBtn7YA-woman-kissing-cute-poodle/" alt="Ảnh 1"></td>
+      <td><img src="https://www.canva.com/photos/MAGwkBtn7YA-woman-kissing-cute-poodle/" alt="Ảnh 2"></td>
+    </tr>
+    <tr>
+      <td><img src="https://www.canva.com/photos/MAGwkBtn7YA-woman-kissing-cute-poodle/" alt="Ảnh 3"></td>
+      <td><img src="https://www.canva.com/photos/MAGwkBtn7YA-woman-kissing-cute-poodle/" alt="Ảnh 4"></td>
+    </tr>
+  </table>
+
+</body>
+</html>
