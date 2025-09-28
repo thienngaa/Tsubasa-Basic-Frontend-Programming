@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS CompanyDB;
+CREATE SCHEMA IF NOT EXISTS CompanyDB;
+USE CompanyDB;
+CREATE TABLE Employee (
+	EmployeeID	INT, 
+    FirstName 	VARCHAR(255), 
+    LastName	VARCHAR(255), 
+    HireDate	DATE, 
+    Salary		INT
+);
+ALTER TABLE Employee
+ADD COLUMN Department	VARCHAR(255);
+
+ALTER TABLE Employee
+MODIFY COLUMN Salary DECIMAL(10,2);
