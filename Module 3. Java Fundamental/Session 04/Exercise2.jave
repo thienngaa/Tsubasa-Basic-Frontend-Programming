@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class SumArray {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Nhập kích thước mảng: ");
+        int arrSize = input.nextInt();
+        int sum = 0;
+
+        int[] arr = new int[arrSize];
+        System.out.println("Nhập các phần tử cho mảng: ");
+        for(int i=0;i<arrSize;i++){
+            arr[i]=input.nextInt();
+            sum = sum+arr[i];
+        }
+        System.out.println("Tổng các phần tử trong mảng là: "+sum);
+    }
+}
